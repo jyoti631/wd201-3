@@ -66,7 +66,7 @@ todos.add({ title: "Service Vehicle", dueDate: today, completed: false });
 todos.add({ title: "File taxes", dueDate: tomorrow, completed: false });
 todos.add({ title: "Pay electric bill", dueDate: tomorrow, completed: false });
 
-console.log("My Todo-list\n\n");
+console.log("My Todo-list\n");
 
 console.log("Overdue");
 var overdues = todos.overdue();
